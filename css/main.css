@@ -1,0 +1,363 @@
+/* start global rooles*/
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+body{ height:3000px;}
+/* end global rooles*/
+ 
+/*start header*/
+
+.header{
+    background: url(../imgaes/TW53.jpg) no-repeat top center;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+
+.header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgbargba(13, 94, 107, 0.32)
+}
+.header .overlay h1{
+    margin-top: 100px;
+    font-size: 60px;
+}
+.header .overlay .plan{
+    width:48%;
+    font-size: 24px;
+    border: 2px solid #FFF;
+    padding: 20px;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.header .overlay .order{
+    margin: 30px 1% 0px;
+    font-size: 24px;
+    border: 2px solid #FFF;
+    padding: 20px;
+} 
+/*start uor workes*/
+
+.our-workes .image{
+    float: left;
+}
+.our-workes .image img{
+    width: 100%;
+}
+
+/*end uor workes*/
+/*start features*/
+.feature .feat{
+     color: #555;
+    padding: 5px
+}
+.feature .feat h2{
+    margin: 10px 0px 8px;
+}
+.feature .feat p{
+    line-height: 1.6;
+    margin: 0
+}
+.feature .h1{
+    font-size: 50px;
+    color: #555
+}
+@media(max-width:767px){
+       .feature .feat{
+        text-align: center
+    }
+}
+@media(min-width:768px){
+    .feature .feat{
+        width:50%
+    }
+}
+@media(min-width:992px){
+    .feature .feat{
+        width:33.3333%
+    }
+   
+    
+}
+@media(min-width:1200px){
+    
+}
+/*end features*/
+
+/*start abuot- us*/
+.about-us{
+    background-color: #dbe2e8bf
+}
+.about-us .res-par{
+    color: #636060;
+    line-height: 1.8;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px;
+}
+}
+/*end about us*/
+
+
+@media(max-width:510px){
+h1{
+        margin-top: 20px !important;
+        font-size: 45px !important;
+    }
+    .header .overlay .plan{
+        float: none;
+        margin: 0 auto 20px;
+        font-size: 22px;
+    }
+    .our-workes .image{
+    width: 100%;
+    float: left;
+        margin: 0;
+}
+}
+@media(min-width:511px) and (max-width:767px){
+    .header .overlay .plan{
+        float: none;
+        margin: 0 auto 20px;
+        font-size: 22px;
+    }
+    .our-workes .image{
+    width: 50%;
+    float: left;
+    
+    
+}  
+}
+/*end header*/
+
+@media(max-width:768px){
+    .visible-xs{
+        display: block !important
+    }
+    .res-par{
+   text-align: center;
+   font-size: 16px
+    
+}
+  .our-workes .image{
+    
+   
+    
+    
+}  
+}
+@media(min-width:769px) and (max-width:991px){
+    .visible-sm{
+        display: block !important
+    } 
+    .container{
+        width:750px
+    }
+    .our-workes .image{
+    width: 33.3333%;
+    float: left;
+    
+    
+}
+    .they-say .person-say .img-icon.ok{
+        margin-top: 30px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .visible-md{
+        display: block !important
+    }
+    .container{
+        width:970px
+    }
+     .our-workes .image{
+    width: 25%;
+   
+}
+}
+
+@media(min-width:1200px){
+    .visible-lg{
+        display: block !important
+    }
+    .container{
+        width:1170px
+    }
+    .our-workes .image{
+    width: 25%;
+   
+}
+    
+    
+    }
+/*start my frame work*/
+.container{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.text-center{
+    text-align: center
+}
+.clearfix{
+    clear: both
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg{
+    display: none
+}
+.float-left{
+    float:left
+}
+.float-right{
+    float: right
+}
+.h1{
+    font-size: 2em;
+    margin: 0;
+    padding: 20px;
+}
+/* end my frame work*/
+/* start pricing-table */
+.pricing-table{
+    background-color: #232121;
+    margin: 0;
+    color: aliceblue;
+    
+}
+.pricing-table h2{
+    padding: 30px;
+}
+.pricing-table .pricing-plan{
+    width:32.33333%;
+    border: 2px solid #fff;
+    margin: 0.5%;
+    padding: 30px 0;
+}
+.pricing-table ul{
+    padding: 0px;
+    line-height: 2;
+}
+.pricing-table ul li{
+    list-style: none;
+    color: #bfbfbf
+}
+@media(max-width:769px){
+    .pricing-table .pricing-plan{
+        float: none;
+        width:100%;
+        margin-top:30px;
+    }
+}
+@media(min-width:770px){
+    .pricing-table{
+        
+        
+    }
+    .pricing-table .pricing-plan.plus{
+        position: relative;
+        left: 33.3333333%
+    }
+    .pricing-table .pricing-plan.ultim{
+        position: relative;
+        right: 33.3333333%
+    }
+    .they-say .person-say{
+        width: 48%;
+        margin: .5%;
+    }
+    .they-say .person-say:first-of-type{
+   margin-left: 10%;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 80%;
+   
+   
+}
+}
+
+
+@media(min-width:992px){
+     .they-say .person-say:first-of-type{
+   margin-left: 25%;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 50%;
+   
+   
+}
+    
+}
+/* end pricing-table */
+.they-say .person-say{
+   
+    padding: 10px;
+    background-color:lightgray;
+    margin: 5px;
+    font-size: 14px;
+    color: dimgrey
+   
+}
+.they-say .person-say .img-icon{
+   width: 30%;
+
+}
+.they-say .person-say .scdiv{
+     width: 70%;
+    padding: 5px;
+}
+.they-say .person-say .img-icon img{
+    width: 100%;
+    float: right;
+}
+.they-say .person-say p{
+   
+}
+.img-circel{
+    border-radius:50%;
+    background-color: #fff;
+    padding: 3px;
+    border:2px solid #ccc
+}
+.information{
+    background-color:#635d5d;
+    padding-bottom: 20px;
+    
+}
+.information .info-lest li{
+    list-style: none;
+   display: inline-block;
+    background-color: #eee;
+    border:0px solid #ccc;
+    font-size:14px;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin:0px;
+ 
+}
+.information .info-content > div{
+    background-color:#fff;
+    padding: 10px;
+}
+.information .info-content > div:not(:first-of-type){
+    display:none
+}
+
+.information .info-lest{
+    margin: 0;
+    padding:0
+}
+.information .info-lest li.active{
+    background-color:red
+}
